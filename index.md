@@ -26,6 +26,6 @@ sections:
 menus:
   main:
     weight: 1
-    title: Home
+    title: Inicio
 layout: home
 ---
