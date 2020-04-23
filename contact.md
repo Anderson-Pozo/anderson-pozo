@@ -3,7 +3,7 @@ title: Contact
 menus:
   main:
     weight: 5
-    title: Contact
+    title: Contacto
 layout: contact
 ---
 
