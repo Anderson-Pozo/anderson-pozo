@@ -10,16 +10,16 @@ sections:
   - section_id: about
     component: content_block.html
     type: contentblock
-    title: About
+    title: Sobre mí
     content: >-
-      Soy estudiante de la carrera de Ingniería en Informática apasionado por el desarrollo web y móvil.
+      Soy estudiante de la carrera de Ingeniería en Informática, miembro activo de la Upec Microsoft Community. Tengo experiencia en el       desarrollo web y móvil y tengo conocimiento en varios lenguajes de programación como Python, PHP, Java y Javascript.
     actions:
       - label: Contact Me
         url: /contact
   - section_id: recent-posts
     component: posts_block.html
     type: postsblock
-    title: Recent Posts
+    title: Artículos recientes
     num_posts_displayed: 4
     actions:
       - label: View Blog
