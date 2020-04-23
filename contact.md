@@ -7,4 +7,4 @@ menus:
 layout: contact
 ---
 
-To get in touch fill the form below.
+Para ponerse en contacto rellene el siguiente formulario.
