@@ -5,8 +5,7 @@ sections:
     component: hero_block.html
     type: heroblock
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    
   - section_id: about
     component: content_block.html
     type: contentblock
@@ -14,7 +13,7 @@ sections:
     content: >-
       Soy estudiante de la carrera de Ingeniería en Informática, miembro activo de la Upec Microsoft Community. Tengo experiencia en el       desarrollo web y móvil y tengo conocimiento en varios lenguajes de programación como Python, PHP, Java y Javascript.
     actions:
-      - label: Contact Me
+      - label: Contáctame
         url: /contact
   - section_id: recent-posts
     component: posts_block.html
@@ -22,7 +21,7 @@ sections:
     title: Artículos recientes
     num_posts_displayed: 4
     actions:
-      - label: View Blog
+      - label: Ver blog
         url: blog/index.html
 menus:
   main:
