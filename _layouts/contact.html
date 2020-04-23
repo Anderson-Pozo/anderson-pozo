@@ -4,7 +4,7 @@ layout: body
 
 <article class="post page post-full">
   <header class="post-header">
-    <h1 class="post-title underline">{{ page.title }}</h1>
+    <h1 class="post-title underline">Contacto</h1>
   </header><!-- .post-header -->
   {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
   {% if subtitle_is_not_empty %}
@@ -23,23 +23,23 @@ layout: body
     <form name="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true" id="contact-form"
       class="contact-form">
       <p class="screen-reader-text">
-        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+        <label>No llenes esto si eres humano: <input name="bot-field" /></label>
       </p>
       <p class="form-row">
-        <label class="form-label">Name *</label>
-        <input type="text" name="name" placeholder="Your name..." class="form-input">
+        <label class="form-label">Nombre *</label>
+        <input type="text" name="name" placeholder="Tu nombre..." class="form-input">
       </p>
       <p class="form-row">
-        <label class="form-label">Email *</label>
-        <input type="email" name="email" placeholder="Your email address..." class="form-input">
+        <label class="form-label">Correo *</label>
+        <input type="email" name="email" placeholder="Tu dirección de correo..." class="form-input">
       </p>
       <p class="form-row">
-        <label class="form-label">Message *</label>
-        <textarea name="message" placeholder="Your message..." class="form-textarea" rows="7"></textarea>
+        <label class="form-label">Mensaje *</label>
+        <textarea name="message" placeholder="Tu mensaje..." class="form-textarea" rows="7"></textarea>
       </p>
       <input type="hidden" name="form-name" value="contactForm" />
       <p class="form-row">
-        <button type="submit" class="button">Send Message</button>
+        <button type="submit" class="button">Enviar mensaje</button>
       </p>
     </form><!-- .contact-form -->
   </div><!-- .post-content -->
