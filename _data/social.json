@@ -17,6 +17,18 @@
             "title": "DEV",
             "icon": "fa-dev",
             "url": "https://dev.to/andersonpozo"
+        },
+        {
+            "type": "instagram",
+            "title": "Instagram",
+            "icon": "fa-instagram",
+            "url": "https://www.instagram.com/andersonram16/"
+        },
+        {
+            "type": "linkedin",
+            "title": "LinkedIn",
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/anderson-ramiro-pozo-imbaquingo-338496186/"
         }
     ]
 }
